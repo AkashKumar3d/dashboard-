@@ -22,7 +22,7 @@ const [Notification, setNotification]=useState(false)
   return (
     <div className='AppHader'>
       <Image width={35} src="https://cdn0.iconfinder.com/data/icons/octicons/1024/dashboard-512.png"/>
-      <Typography.Title>Warehousing Dashbord</Typography.Title>
+      <Typography.Title>Akash Warehousing</Typography.Title>
       <Space>
         <Badge count={comment.length} >
         <MailOutlined style={{fontSize:20}} onClick={()=>{
